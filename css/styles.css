@@ -25,7 +25,7 @@
 body {
   font-family: "Noto Sans KR", "Open Sans", sans-serif;
   /*background-color: var(--yellow);*/
-  background-image: url("https://github.com/leesnagjun/kokoa-clone-2021/blob/master/css/king.png?raw=true");
+  background-image: url("king.png");
   background-size: cover;
   height: 100vh;
   width: auto;
