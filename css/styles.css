@@ -24,6 +24,8 @@ body {
   font-family: "Londrina Solid", "Dokdo";
   background-image: url("background.png");
   background-size: cover;
+  width: 100vw;
+  height: 100vh;
 }
 
 .main-screen {
