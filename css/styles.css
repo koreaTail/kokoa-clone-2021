@@ -22,7 +22,6 @@
 
 body {
   font-family: "Londrina Solid", "Dokdo";
-  /*background-color: var(--yellow);*/
   background-image: url("background.png");
   background-size: cover;
 }
