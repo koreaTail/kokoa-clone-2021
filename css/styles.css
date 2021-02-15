@@ -22,10 +22,10 @@
 
 body {
   font-family: "Londrina Solid", "Dokdo";
-  background-image: url("https://github.com/leesnagjun/kokoa-clone-2021/blob/gh-pages/css/background.PNG?raw=true");
-  background-size: cover;
   width: 100vw;
   height: 100vh;
+  background-image: url("https://github.com/leesnagjun/kokoa-clone-2021/blob/gh-pages/css/background.PNG?raw=true");
+  background-size: cover;
 }
 
 .main-screen {
