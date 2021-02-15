@@ -2,10 +2,11 @@
   position: fixed;
   bottom: 0px;
   width: 100%;
-  background-color: #b3722e;
+  background-color: var(--green);
   padding: 30px 40px;
   box-sizing: border-box;
-  border-top: 1px solid #9b6429;
+  border-top: 1px solid var(--green);
+  z-index: 5;
 }
 
 .nav__btn {

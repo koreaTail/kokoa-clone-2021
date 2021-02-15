@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <link rel="stylesheet" href="css/styles.css" />
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Chat-fox</title>
+  </head>
+
+  <body id="chat-screen">
+    <div class="status-bar">
+      <div class="status-bar__column">
+        <span>Moon</span>
+        <i class="fas fa-wifi"></i>
+      </div>
+      <div class="status-bar__column">
+        <span>지구시간 7:12</span>
+      </div>
+      <div class="status-bar__column">
+        <span>100%</span>
+        <i class="fas fa-battery-three-quarters fa-lg green-battery"></i>
+      </div>
+    </div>
+
+    <header class="alt-header">
+      <div class="alt-header__column">
+        <a href="chats.html"><i class="fas fa-angle-left fa-2x"></i></a>
+      </div>
+      <div class="alt-header__column">
+        <h1 class="alt-header__title">허영 아저씨</h1>
+      </div>
+      <div class="alt-header__column">
+        <i class="fas fa-search fa-lg"> </i>
+        <i class="fas fa-bars fa-lg"></i>
+      </div>
+    </header>
+
+    <main class="main-screen main-chat">
+      <div class="time-stempt">
+        <div class="time-stempt__time">Tuesday, Jun 30, 2020</div>
+      </div>
+
+      <div class="message-row message-row--own">
+        <div class="message-row__content">
+          <div class="message__info">
+            <span class="message__bubble">안녕하세요</span>
+            <span class="message__time">06:22</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="message-row">
+        <img src="image/huse.PNG" />
+        <div class="message-row__content">
+          <span class="message__author">허영 아저씨</span>
+          <div class="message__info">
+            <span class="message__bubble">박수치렴</span>
+            <span class="message__time">06:22</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="message-row message-row--own">
+        <div class="message-row__content">
+          <div class="message__info">
+            <span class="message__bubble">👏</span>
+            <span class="message__time">06:22</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="message-row">
+        <img src="image/huse.PNG" />
+        <div class="message-row__content">
+          <span class="message__author">허영 아저씨</span>
+          <div class="message__info">
+            <span class="message__bubble">ㅎㅎㅎ 감사합니다~~</span>
+            <span class="message__time">06:22</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="message-row">
+        <img src="image/huse.PNG" />
+        <div class="message-row__content">
+          <span class="message__author">허영 아저씨</span>
+          <div class="message__info">
+            <span class="message__bubble"
+              >내가 이 행성에서 제일 잘 생기고, 패셔너블하고, 돈 많고, 똑똑하지
+              않니?</span
+            >
+            <span class="message__time">06:22</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="message-row message-row--own">
+        <div class="message-row__content">
+          <div class="message__info">
+            <span class="message__bubble"
+              >...그치만 이 행성에서 혼자 사시잖아요</span
+            >
+            <span class="message__time">06:22</span>
+          </div>
+        </div>
+      </div>
+    </main>
+
+    <form class="reply">
+      <div class="reply__column">
+        <i class="far fa-plus-square"></i>
+      </div>
+      <div class="reply__column">
+        <input type="text" placeholder="Write a message..." />
+        <i class="far fa-smile-wink"></i>
+        <button><i class="fas fa-arrow-up"></i></button>
+      </div>
+    </form>
+    <div id="no-mobile">
+      <span>나에게 이 화면은 너무 커... </span>
+    </div>
+    <script
+      src="https://kit.fontawesome.com/6478f529f2.js"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>

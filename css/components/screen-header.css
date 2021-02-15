@@ -3,6 +3,7 @@
   justify-content: space-between;
   padding: var(--horizontal-space);
   align-items: center;
+  color: white;
 }
 
 .screen-header__title {
@@ -24,5 +25,26 @@
   }
   to {
     transform: rotateZ(360deg);
+  }
+}
+
+.screen-header__green {
+  animation: GreenBeem 4s linear infinite;
+  will-change: transform;
+}
+
+@keyframes GreenBeem {
+  0% {
+    transform: none;
+    color: white;
+  }
+  50% {
+    color: var(--green);
+    transform: scale(1.1);
+  }
+
+  100% {
+    transform: none;
+    color: white;
   }
 }

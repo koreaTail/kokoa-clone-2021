@@ -1,5 +1,9 @@
 :root {
-  --yellow: #f9dc05;
+  --yellow: #fff15c;
+  --haircolor: #ffd13e;
   --horizontal-space: 25px;
   --gray: rgba(0, 0, 0, 0.2);
+  --green: rgb(118, 166, 133);
+  --red: rgb(231, 102, 74);
+  --white: rgb(254, 255, 255);
 }

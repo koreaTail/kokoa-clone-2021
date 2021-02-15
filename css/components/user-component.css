@@ -20,7 +20,7 @@
 }
 
 .user-component__column:last-child {
-  color: rgba(0, 0, 0, 0.5);
+  color: var(--white);
   align-items: flex-end;
   flex-direction: column;
   justify-content: center;
@@ -34,7 +34,7 @@
 .user-component__subtitle {
   margin-top: 5px;
   font-size: 16px;
-  color: rgba(0, 0, 0, 0.5);
+  color: var(--white);
 }
 
 .user-component__avatar-xl {
@@ -67,7 +67,7 @@
 }
 
 .user-component__thumbtack:last-child {
-  color: rgba(0, 0, 0, 0.6);
+  color: var(--white);
   position: absolute;
   right: -18px;
   bottom: 11px;
