@@ -1,0 +1,37 @@
+.nav {
+  position: fixed;
+  bottom: 0px;
+  width: 100%;
+  background-color: #b3722e;
+  padding: 30px 40px;
+  box-sizing: border-box;
+  border-top: 1px solid #9b6429;
+}
+
+.nav__btn {
+  display: flex;
+  justify-content: space-between;
+}
+
+.nav__link {
+  position: relative;
+}
+
+.nav__btn_chatnumber {
+  position: absolute;
+  bottom: 17px;
+  left: 20px;
+  animation: notificationAnimation 0.8s ease-in-out infinite;
+}
+
+@keyframes notificationAnimation {
+  0% {
+    transform: none;
+  }
+  50% {
+    transform: translateY(-3px) rotateY(31deg);
+  }
+  100% {
+    transform: none;
+  }
+}

@@ -1,0 +1,156 @@
+.find-icons {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px 20px;
+  border-bottom: 1px solid var(--gray);
+}
+
+.find-icons__icon {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.find-icons__icon i {
+  font-size: 35px;
+}
+
+.find-icons__icon span,
+p {
+  margin-top: 18px;
+}
+
+.recommenedFriends {
+  display: flex;
+  flex-direction: column;
+  border-bottom: 1px solid var(--gray);
+}
+
+.recommenedFriends__title {
+  color: rgba(0, 0, 0, 0.6);
+  margin-top: 15px;
+  font-size: 20px;
+}
+
+.recommenedFriends__contents {
+  color: rgba(0, 0, 0, 0.6);
+  margin: 110px 0px;
+  display: block;
+  text-align: center;
+  font-size: 25px;
+}
+
+.open-chat__top {
+  display: flex;
+  justify-content: space-between;
+  margin: 15px 0px;
+  font-size: 20px;
+  color: rgba(0, 0, 0, 0.6);
+}
+
+.open-chat__top-right {
+  color: rgba(0, 0, 0, 0.3);
+  display: flex;
+  align-items: center;
+}
+
+.open-chat__top-right i {
+  margin-left: 10px;
+}
+
+.open-chat__body {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-bottom: 15px;
+  border-bottom: 1px solid var(--gray);
+}
+
+.open-chat__body-text__title {
+  font-size: 25px;
+  padding-bottom: 7px;
+}
+
+.open-chat__body-text__hashtags {
+  font-size: 20px;
+  color: rgba(0, 0, 0, 0.5);
+  padding-bottom: 7px;
+}
+
+.open-chat__body-text__etc {
+  display: flex;
+  font-size: 17px;
+  color: rgba(0, 0, 0, 0.5);
+  align-items: center;
+}
+
+.open-chat__body-text__etc__miniphoto {
+  width: 30px;
+  height: 30px;
+  border-radius: 50px;
+  margin-right: 5px;
+}
+
+.open-chat__body-text__etc__how-many {
+  margin-right: 4px;
+}
+
+.open-chat__body-text__etc__state {
+  color: rgb(238, 103, 125);
+}
+
+.open-chat__body__photo-box {
+  position: relative;
+}
+
+.open-chat__body__photo-box__photo {
+  width: 120px;
+  height: 120px;
+  border-radius: 15px;
+}
+
+.open-chat__body__how-many-heart {
+  background-color: rgba(0, 0, 0, 0.5);
+  color: white;
+  font-weight: 400;
+  font-size: 14px;
+  width: 53px;
+  height: 23px;
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  right: 6px;
+  bottom: 10px;
+}
+
+.open-chat__body__how-many-heart i {
+  font-size: 11px;
+  padding-right: 4px;
+}
+
+.open-chat__body__how-many-heart .fa-heart:hover {
+  animation: heartBeat 1.3s linear infinite;
+  will-change: transform;
+}
+
+@keyframes heartBeat {
+  0% {
+    transform: none;
+    color: white;
+  }
+  48% {
+    color: tomato;
+    transform: scale(1.3);
+  }
+
+  52% {
+    color: tomato;
+    transform: scale(1.3);
+  }
+  100% {
+    transform: none;
+    color: white;
+  }
+}

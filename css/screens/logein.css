@@ -1,0 +1,90 @@
+.welcome-header {
+  margin: 120px 0px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+  align-items: center;
+}
+.welcome-header__title {
+  font-size: 25px;
+  margin-bottom: 20px;
+}
+
+.welcome-header__title__name {
+  margin-top: 5px;
+  font-size: 50px;
+}
+
+.welcome-header__text {
+  width: 50%;
+  opacity: 0.5;
+}
+
+.login-form {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.login-form input {
+  border: none;
+  font-size: 15px;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+  width: 250px;
+}
+
+/* 여기는 나중에 색깔 고르는 기능 넣을 때, 시도해보기
+  .login-form input::placeholder {
+    color: rgba(0, 0, 0, 0.2);
+  }
+  */
+
+.login-form input[type] {
+  margin-bottom: 1px;
+  padding-bottom: 10px;
+  padding-top: 10px;
+  padding-left: 10px;
+  padding-right: 10px;
+  border-radius: 4px;
+}
+
+.login-form input::placeholder {
+  font-family: "Londrina Solid", cursive;
+  opacity: 0.5;
+}
+
+.login-form input[value] {
+  width: 270px;
+  font-family: "Londrina Solid", cursive;
+  margin-top: 2px;
+}
+
+.login-form input[value]:hover {
+  cursor: pointer;
+}
+
+a[href="#"] {
+  margin-top: 60px;
+}
+
+/*
+  .background_sponge {
+    text-align: center;
+  }
+  
+  img[src^="ha"] {
+    position: absolute;
+    bottom: 0;
+    transform: translateX(-250px);
+  }
+  */
+
+.login-form a {
+  font-size: 15px;
+  text-decoration: none;
+  color: rgb(16, 16, 177);
+  margin-top: 40px;
+}

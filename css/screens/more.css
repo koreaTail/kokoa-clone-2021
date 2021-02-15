@@ -1,0 +1,63 @@
+.color-black {
+  color: black;
+}
+
+.user-component__title {
+  margin-bottom: 10px;
+}
+
+.user-component__subtitle {
+  display: inline;
+}
+
+.user-component__text i {
+  color: rgba(255, 70, 70, 0.7);
+  font-size: 15px;
+}
+
+.more-icons {
+  margin-top: 20px;
+  flex-wrap: wrap;
+  /*아 이부분이.. display left and center 하고싶은데 ㅠ 방법을 몰라.. */
+}
+
+.empty {
+  opacity: 0;
+}
+
+.more-icons .find-icons__icon {
+  padding: 0px 20px 30px 20px;
+}
+
+.suggestions__title {
+  font-size: 20px;
+  margin: 20px 0px;
+}
+
+.suggestions__btns {
+  display: flex;
+}
+
+.suggestions__btns__btn {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  margin: 0px 10px;
+}
+
+.suggestions__btn__img {
+  margin-bottom: 10px;
+  width: 60px;
+  height: 60px;
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 12px;
+  color: tomato;
+}
+
+.suggestions__btn__text {
+  color: rgba(0, 0, 0, 0.5);
+}

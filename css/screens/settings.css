@@ -1,0 +1,21 @@
+.settings__setting {
+  padding: 10px 0px;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+  font-size: 22px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+
+.settings__setting span {
+  margin-left: 15px;
+}
+
+.settings__setting i {
+  color: rgba(0, 0, 0, 0.8);
+}
+
+.settings__setting__column:last-child {
+  color: rgba(0, 0, 0, 0.3);
+}

@@ -1,0 +1,48 @@
+.badge {
+  display: block;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  color: white;
+  background-color: rgb(255, 70, 70);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.badge__no {
+  background-color: var(--yellow);
+  color: var(--yellow);
+}
+
+.badge_spacial {
+  width: 44px;
+  border-radius: 35px;
+}
+
+.nav__btn__etc,
+.badge_dot_display {
+  position: relative;
+}
+
+.nav__btn_dot {
+  display: flex;
+  width: 7px;
+  height: 7px;
+  border-radius: 50%;
+  background-color: rgb(255, 70, 70);
+  position: absolute;
+  bottom: 30px;
+  right: -6px;
+}
+
+.badge_dot {
+  display: flex;
+  width: 5px;
+  height: 5px;
+  border-radius: 50%;
+  background-color: rgb(255, 70, 70);
+  position: absolute;
+  bottom: 17px;
+  right: -6px;
+}
