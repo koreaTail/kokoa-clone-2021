@@ -4,47 +4,46 @@
     <link rel="stylesheet" href="css/styles.css" />
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Welcome to spongebob-talk</title>
+    <title>어린왕자 톡이야. 어서와.</title>
   </head>
   <body>
     <div class="status-bar">
       <div class="status-bar__column">
+        <span>Moon</span>
         <i class="fas fa-wifi"></i>
       </div>
       <div class="status-bar__column">
-        <span>7:12</span>
+        <span>지구시간 7:12</span>
       </div>
       <div class="status-bar__column">
-        <i class="fas fa-stopwatch"></i>
-
-        <span>87%</span>
-        <i class="fas fa-battery-three-quarters fa-lg"></i>
+        <span>100%</span>
+        <i class="fas fa-battery-three-quarters fa-lg green-battery"></i>
       </div>
     </div>
     <header class="welcome-header">
       <h1 class="welcome-header__title">
-        <p>Welcome to</p>
-        <p class="welcome-header__title__name">SpongeBob-talk</p>
+        <p class="welcome-header__title__name">어린왕자톡</p>
       </h1>
-      <p class="welcome-header__text">if you have a kokoa Account,</p>
-      <p class="welcome-header__text">log in with you email or phone number.</p>
+      <p class="welcome-header__text">너가 어린왕자가 맞다면,</p>
+      <p class="welcome-header__text">로그인을 부탁해</p>
     </header>
 
     <form action="friendlist.html" method="GET" class="login-form">
       <!--
         <input type="color" />
        좋아하는 컬러를 선택해주세요. 배경색을 바꿔줘요. 추천컬러는 ~~입니다.-->
-      <input type="text" placeholder="Email or Phone number" />
-      <input type="password" placeholder="Password" />
-      <input type="submit" value="Log in" />
-      <input type="submit" disabled value="Sign up" />
-      <a href="#">Find SpongeBob Account or Password</a>
+      <input type="text" placeholder="아이디" />
+      <input type="password" placeholder="비밀번호" />
+      <input type="submit" value="로그인" />
+      <input type="submit" disabled value="가입하기" />
+      <a href="#">비밀번호를 잊었다면, 여기를 눌러줘.</a>
     </form>
-    <!--
-      <div class="background_sponge">
-      <img src="happy_spongebob-remove_cut.png" />
+
+    <div id="no-mobile">
+      <span>나에게 이 화면은 너무 커..</span>
+      <span>줄여줄 수 있겠니..? </span>
     </div>
-  -->
+
     <script
       src="https://kit.fontawesome.com/6478f529f2.js"
       crossorigin="anonymous"

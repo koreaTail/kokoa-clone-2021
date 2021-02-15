@@ -4,14 +4,19 @@
   z-index: 99;
   height: 100vh;
   width: 100vw;
-  background-color: #9b6429;
+  background-color: #30404f;
   display: flex;
   justify-content: center;
+  flex-direction: column;
   align-items: center;
-  font-size: 45px;
+  font-size: 30px;
 }
 
-@media screen and (max-width: 650px) {
+#no-mobile span {
+  margin: 10px;
+}
+
+@media screen and (max-width: 600px) {
   #no-mobile {
     display: none;
   }

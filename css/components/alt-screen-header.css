@@ -8,6 +8,8 @@
 
 .alt-header__title {
   font-size: 27px;
+  display: flex;
+  justify-content: center;
 }
 
 .alt-header__column {

@@ -1,3 +1,54 @@
+.vedio-height {
+  height: 120%;
+}
+
+.video-container {
+  position: relative;
+  padding-top: 56.2%;
+  margin-bottom: 20px;
+}
+
+iframe {
+  z-index: 1;
+  top: 0;
+  left: 0;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+}
+
+.follow-youtube {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 30px;
+}
+
+.follow-youtube__small-img-and-text {
+  display: flex;
+  align-items: center;
+}
+
+.follow-youtube__small-img-and-text img {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  margin-right: 12px;
+}
+
+.follow-youtube__text__title {
+  font-size: 25px;
+  margin-bottom: 5px;
+}
+
+.follow-youtube-more {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 50px;
+  margin-bottom: 200px;
+}
+
 .find-icons {
   display: flex;
   justify-content: space-between;
@@ -16,40 +67,25 @@
 }
 
 .find-icons__icon span,
-p {
+.find-icons__icon p {
   margin-top: 18px;
 }
 
-.recommenedFriends {
-  display: flex;
-  flex-direction: column;
-  border-bottom: 1px solid var(--gray);
-}
-
-.recommenedFriends__title {
-  color: rgba(0, 0, 0, 0.6);
-  margin-top: 15px;
-  font-size: 20px;
-}
-
-.recommenedFriends__contents {
-  color: rgba(0, 0, 0, 0.6);
-  margin: 110px 0px;
-  display: block;
-  text-align: center;
-  font-size: 25px;
+.open-chat {
+  margin-bottom: 85px;
 }
 
 .open-chat__top {
   display: flex;
   justify-content: space-between;
-  margin: 15px 0px;
-  font-size: 20px;
-  color: rgba(0, 0, 0, 0.6);
+  margin: 25px 0px 30px 0px;
+  font-size: 22px;
+  font-weight: 800;
+  color: var(--white);
 }
 
 .open-chat__top-right {
-  color: rgba(0, 0, 0, 0.3);
+  color: var(--white);
   display: flex;
   align-items: center;
 }
@@ -63,7 +99,8 @@ p {
   align-items: center;
   justify-content: space-between;
   padding-bottom: 15px;
-  border-bottom: 1px solid var(--gray);
+  border-bottom: 1px solid var(--white);
+  margin-bottom: 25px;
 }
 
 .open-chat__body-text__title {
@@ -73,14 +110,14 @@ p {
 
 .open-chat__body-text__hashtags {
   font-size: 20px;
-  color: rgba(0, 0, 0, 0.5);
+  color: var(--white);
   padding-bottom: 7px;
 }
 
 .open-chat__body-text__etc {
   display: flex;
   font-size: 17px;
-  color: rgba(0, 0, 0, 0.5);
+  color: var(--white);
   align-items: center;
 }
 

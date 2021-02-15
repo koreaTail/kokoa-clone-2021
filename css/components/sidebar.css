@@ -1,0 +1,16 @@
+.screen__title {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.screen__title__name {
+  font-size: 50px;
+}
+
+.friend__title__sidebar {
+  display: flex;
+  justify-content: flex-end;
+  font-size: 20px;
+  padding: 0px 10px;
+}

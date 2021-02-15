@@ -4,38 +4,39 @@
     <link rel="stylesheet" href="css/styles.css" />
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>friend list</title>
+    <title>친구 목록</title>
   </head>
 
   <body>
     <div class="status-bar">
       <div class="status-bar__column">
+        <span>태양계</span>
         <i class="fas fa-wifi"></i>
       </div>
       <div class="status-bar__column">
-        <span>7:12</span>
+        <span>지구시간 7:12</span>
       </div>
       <div class="status-bar__column">
-        <i class="fas fa-stopwatch"></i>
-
-        <span>87%</span>
-        <i class="fas fa-battery-three-quarters fa-lg"></i>
+        <span>100%</span>
+        <i class="fas fa-battery-full fa-lg green-battery"></i>
       </div>
     </div>
 
     <header class="screen-header">
-      <h1 class="screen-header__title">Friend</h1>
+      <h1 class="screen-header__title">친구</h1>
+      <audio src="prinsmusic.mp3" controls loop autoplay></audio>
       <div class="screen-header__icons">
         <span><i class="fas fa-search fa-lg"> </i></span>
         <span><i class="fas fa-music fa-lg"> </i></span>
         <span><a href="settings.html"><i class="fas fa-cog fa-lg"> </i></a></span>
+        <span class="log-out"><a href="index.html"><i class="fas fa-power-off fa-lg"></i></a></span>
       </div>
     </header>
 
     <div class="frineds-display">
       <a class="frineds-display-link">
         <i class="fas fa-info-circle"></i>
-        <div>Friends'Names Display</div>
+        <div>다른 지구 친구들 보러가기</div>
         <i class="fas fa-angle-right fa-xs"></i
       ></a>
     </div>
@@ -45,19 +46,20 @@
         <div class="user-component__column">
           <img
             class="user-component__avatar user-component__avatar-xl"
-            src="https://item.kakaocdn.net/do/0f3df0cc5e64ae90efee0165d35153f0f43ad912ad8dd55b04db6a64cddaf76d"
-          />
+            src="image/littleKing.PNG"/>
           <div class="user-component__text">
-            <h4 class="user-component__title">SpongeBob</h4>
-            <h6 class="user-component__subtitle">hahah</h6>
+            <h4 class="user-component__title">어린왕자</h4>
+            <h6 class="user-component__subtitle">양 한마리만 그려줘.</h6>
           </div>
         </div>
-        <div class="user-component__column"></div>
+        <div class="user-component__column">
+          
+        </div>
       </div>
 
       <div class="friends-screen__channel">
         <div class="friends-screen__channel-header">
-          <span>channel</span>
+          <span>지구 친구</span>
           <i class="fas fa-angle-up fa-xs"></i>
         </div>
       </div>
@@ -67,13 +69,13 @@
           <div class="user-component__column">
             <img
               class="user-component__avatar user-component__avatar-sm"
-              src="https://item.kakaocdn.net/do/490d3fcfcef6c2b69b380d4b66328e53f43ad912ad8dd55b04db6a64cddaf76d"
+              src="fox.PNG"
             />
             <div class="user-component__text">
               <h4 class="user-component__title user-component__title--not-bold">
-                DDungyee
+                여우
               </h4>
-              <h6 class="user-component__subtitle">ah!</h6>
+              <h6 class="user-component__subtitle">정말 중요한 것은 눈에 보이지 않아.</h6>
             </div>
           </div>
           <div class="user-component__column">
@@ -88,19 +90,90 @@
           <div class="user-component__column">
             <img
               class="user-component__avatar user-component__avatar-sm"
-              src="https://item.kakaocdn.net/do/3d4b541baf797f105bd51c03453a2c56f43ad912ad8dd55b04db6a64cddaf76d"
+              src="image/flyer.PNG".PNG"
             />
             <div class="user-component__text">
               <h4 class="user-component__title user-component__title--not-bold">
-                JingJingyee
+                비행사
               </h4>
-              <h6 class="user-component__subtitle">ah!</h6>
+              <h6 class="user-component__subtitle"> 양을 그리는 건 비행기 조종보다 어려워. </h6>
             </div>
           </div>
           <div class="user-component__column"></div>
         </div>
 
+        <div class="friends-screen__channel">
+          <div class="friends-screen__channel-header">
+            <span>우주 친구</span>
+            <i class="fas fa-angle-up fa-xs"></i>
+          </div>
+        </div>
 
+        <div class="user-component user-component-sm">
+          <div class="user-component__column">
+            <img
+              class="user-component__avatar user-component__avatar-sm"
+              src="rose.PNG"
+            />
+            <div class="user-component__text">
+              <h4 class="user-component__title user-component__title--not-bold">
+                장미
+              </h4>
+              <h6 class="user-component__subtitle">I'm waiting for you..</h6>
+            </div>
+          </div>
+          <div class="user-component__column"></div>
+        </div>
+
+        <div class="user-component user-component-sm">
+          <div class="user-component__column">
+            <img
+              class="user-component__avatar user-component__avatar-sm"
+              src="image/notking.PNG"
+            />
+            <div class="user-component__text">
+              <h4 class="user-component__title user-component__title--not-bold">
+                왕 아저씨
+              </h4>
+              <h6 class="user-component__subtitle">짐이 왕이다.</h6>
+            </div>
+          </div>
+          <div class="user-component__column"></div>
+        </div>
+
+        <div class="user-component user-component-sm">
+          <div class="user-component__column">
+            <img
+              class="user-component__avatar user-component__avatar-sm"
+              src="image/huse.PNG"
+            />
+            <div class="user-component__text">
+              <h4 class="user-component__title user-component__title--not-bold">
+                허영 아저씨
+              </h4>
+              <h6 class="user-component__subtitle">소행성 325호 얼짱</h6>
+            </div>
+          </div>
+          <div class="user-component__column"></div>
+        </div>
+
+        <div class="user-component user-component-sm">
+          <div class="user-component__column">
+            <img
+              class="user-component__avatar user-component__avatar-sm"
+              src="image/rich.PNG".PNG"
+            />
+            <div class="user-component__text">
+              <h4 class="user-component__title user-component__title--not-bold">
+                부자 아저씨
+              </h4>
+              <h6 class="user-component__subtitle">돈이 최고야 💰 💰 💰 💰</h6>
+            </div>
+          </div>
+          <div class="user-component__column"></div>
+        </div>
+
+        
         <!--
         <div class="user-component user-component-sm">
           <div class="user-component__column">
@@ -152,8 +225,8 @@
           ></a>
         </li>
         <li class="nav__btn__search">
-          <a class="nav__link" href="search.html"
-            ><i class="far fa-laugh-squint fa-2x"></i
+          <a class="nav__link" href="story.html"
+            ><i class="fab fa-slack-hash fa-2x"></i
           ></a>
         </li>
         <li class="nav__btn__etc">
@@ -165,11 +238,12 @@
       </ul>
     </nav>
   <div id="splash-screen">
-    <i class="fas fa-comment"></i>
+    <div>네가 오후 4시에 온다면,</div>
+    <div>나는 3시부터 행복해 질 거야.</div>     
   </div>
 
   <div id="no-mobile">
-    <span>Your screen is too big</span>
+    <span>나에게 이 화면은 너무 커... </span>
   </div>
   
     <script

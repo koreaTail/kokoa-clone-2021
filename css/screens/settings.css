@@ -1,6 +1,6 @@
 .settings__setting {
   padding: 10px 0px;
-  border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+  border-bottom: 1px solid var(--white);
   font-size: 22px;
   display: flex;
   align-items: center;
@@ -13,9 +13,11 @@
 }
 
 .settings__setting i {
-  color: rgba(0, 0, 0, 0.8);
+  color: var(--white);
+  opacity: 0.8;
 }
 
 .settings__setting__column:last-child {
-  color: rgba(0, 0, 0, 0.3);
+  color: var(--white);
+  opacity: 0.3;
 }

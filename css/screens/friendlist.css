@@ -2,8 +2,14 @@
   padding: 0px var(--horizontal-space);
 }
 
+.screen-header audio {
+  width: 180px;
+  height: 30px;
+}
+
 .frineds-display {
   padding: 0px 25px;
+  margin-bottom: 20px;
 }
 
 .frineds-display-link {
@@ -14,38 +20,47 @@
   position: relative;
   margin-bottom: 10px;
   align-items: center;
+  color: black;
 }
 
 .frineds-display-link i {
-  color: rgb(166, 43, 43, 0.5);
+  color: var(--red);
   padding: 0px 6px;
 }
 
 .friends-screen__channel {
   margin-top: 25px;
-  border-top: 1px solid var(--gray);
+  border-top: 1px solid var(--green);
   padding-top: 10px;
 }
 
 .friends-screen__channel-header {
   display: flex;
   justify-content: space-between;
-  color: rgba(0, 0, 0, 0.5);
+  color: var(--green);
   margin-bottom: 20px;
 }
 
 #splash-screen {
-  background-color: tomato;
+  background-color: var(--green);
   position: absolute;
   height: 100vh;
   width: 100vw;
   top: 0;
   display: flex;
+  flex-direction: column;
   justify-content: center;
-  align-items: center;
-  font-size: 150px;
-  animation: hideSplashScreen 0.5s ease-out forwards;
-  animation-delay: 0.3s;
+
+  font-size: 35px;
+  animation: hideSplashScreen 0.4s ease-out forwards;
+  animation-delay: 1.8s;
+  font-weight: 800;
+  z-index: 10;
+}
+
+#splash-screen div {
+  padding-left: 30px;
+  padding-bottom: 15px;
 }
 
 @keyframes hideSplashScreen {
@@ -56,5 +71,21 @@
   to {
     opacity: 0;
     visibility: hidden;
+  }
+}
+
+.log-out {
+  animation: logOut 3s linear infinite;
+}
+
+@keyframes logOut {
+  0% {
+    color: var(--white);
+  }
+  50% {
+    color: var(--red);
+  }
+  100% {
+    color: var(--white);
   }
 }

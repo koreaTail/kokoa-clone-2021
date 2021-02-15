@@ -4,10 +4,10 @@
     <link rel="stylesheet" href="css/styles.css" />
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>setting</title>
+    <title>Story</title>
   </head>
 
-  <body>
+  <body class="map-display">
     <div class="status-bar">
       <div class="status-bar__column">
         <span>Moon</span>
@@ -22,42 +22,27 @@
       </div>
     </div>
 
-    <header class="alt-header">
-      <div class="alt-header__column">
-        <a href="etc.html"> <i class="fas fa-angle-left fa-2x"></i></a>
-      </div>
-      <div class="alt-header__column">
-        <h1 class="alt-header__title">Settings</h1>
-      </div>
-      <div class="alt-header__column">
-        <i class="fas fa-search fa-lg"> </i>
+    <header class="screen-header screen-header__map">
+        <a class="screen-header__title" href="story.html">#비디오</a>
+        <a class="screen-header__title" href="story-book.html">#도서</a>
+        <a class="screen-header__title screen-header__green" href="story-map.html">#지도</a>
+      <div class="screen-header__icons badge_dot_display">
+        <span><i class="fas fa-search fa-lg"> </i></span>
+        <span></span><span class="badge_dot"></span>
+        <a href="settings.html"><i class="fas fa-cog fa-lg" > </i></a></span>
       </div>
     </header>
 
-    <main class="main-screen">
-      <ul class="settings-list">
-        <li class="settings__setting">
-          <div class="settings__setting__column">
-            <i class="fas fa-bullhorn"></i>
-            <span>Notices</span>
-          </div>
-          <div class="settings__setting__column"></div>
-        </li>
-        <li class="settings__setting">
-          <div class="settings__setting__column">
-            <i class="fas fa-flask"></i>
-            <span>KaKao Lab</span>
-          </div>
-          <div class="settings__setting__column"></div>
-        </li>
-        <li class="settings__setting">
-          <div class="settings__setting__column">
-            <i class="fas fa-exclamation-circle"></i>
-            <span>Version</span>
-          </div>
-          <div class="settings__setting__column">Last Version</div>
-        </li>
-      </ul>
+    <main>
+        <div class="visit-text">가본 곳</div>
+        <div class="map-responsive">
+          <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d10886790.219642457!2d11.1766628392984!3d19.590959647524805!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x13883b64fb267151%3A0xd6406bdc582d7390!2sSahara%20Desert!5e0!3m2!1sko!2skr!4v1613420213951!5m2!1sko!2skr" width="400" height="300" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+        </div>
+        <div class="visit-text">가고 싶은 곳</div>
+        <div class="map-responsive">
+          <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d12438999.263965903!2d166.3308890755077!3d-40.4339869148063!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6d2c200e17779687%3A0xb1d618e2756a4733!2z64m07KeI656c65Oc!5e0!3m2!1sko!2skr!4v1613420453209!5m2!1sko!2skr" width="400" height="300" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+        </div>
+
     </main>
 
     <nav class="nav">
