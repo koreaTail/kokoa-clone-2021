@@ -1,3 +1,7 @@
+.screen-margin-bottom {
+  height: 99%;
+}
+
 .video-container {
   position: relative;
   padding-top: 56.2%;
@@ -33,23 +37,26 @@ iframe {
 }
 
 .follow-youtube__text__title {
-  font-size: 25px;
+  font-size: 18px;
   margin-bottom: 5px;
+}
+
+.follow-youtube__text__etc {
+  font-size: 13px;
 }
 
 .follow-youtube-more {
   display: flex;
   align-items: center;
   justify-content: center;
-  margin-top: 50px;
-  margin-bottom: 200px;
+  margin-top: 20px;
 }
 
 .find-icons {
   display: flex;
   justify-content: space-between;
   padding: 20px 20px;
-  border-bottom: 1px solid var(--gray);
+  border-bottom: 1px solid var(--white);
 }
 
 .find-icons__icon {
@@ -102,19 +109,20 @@ iframe {
 }
 
 .open-chat__body-text__title {
-  font-size: 25px;
+  font-size: 20px;
   padding-bottom: 7px;
+  font-weight: 600;
 }
 
 .open-chat__body-text__hashtags {
-  font-size: 20px;
+  font-size: 13px;
   color: var(--white);
   padding-bottom: 7px;
 }
 
 .open-chat__body-text__etc {
   display: flex;
-  font-size: 17px;
+  font-size: 13px;
   color: var(--white);
   align-items: center;
 }

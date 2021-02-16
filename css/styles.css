@@ -27,7 +27,7 @@ body {
   /*background-color: var(--yellow);*/
   background-image: url("king.png");
   background-size: cover;
-  height: 110vh;
+  height: 115vh;
   width: auto;
 
   color: var(--white);

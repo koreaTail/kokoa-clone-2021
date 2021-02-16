@@ -26,7 +26,7 @@
 }
 
 .more-icons .find-icons__icon {
-  padding: 0px 15px 30px 15px;
+  padding: 0px 10px 30px 10px;
 }
 
 .suggestions__title {
@@ -60,4 +60,5 @@
 
 .suggestions__btn__text {
   color: var(--white);
+  font-size: 12px;
 }
