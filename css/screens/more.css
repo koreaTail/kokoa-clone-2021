@@ -1,5 +1,5 @@
 .color-black {
-  color: black;
+  color: white;
 }
 
 .user-component__title {
@@ -26,7 +26,7 @@
 }
 
 .more-icons .find-icons__icon {
-  padding: 0px 20px 30px 20px;
+  padding: 0px 15px 30px 15px;
 }
 
 .suggestions__title {

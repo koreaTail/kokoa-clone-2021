@@ -1,7 +1,7 @@
 #chat-screen {
   background-image: none;
   background-color: var(--green);
-  height: 200vh;
+  height: 150vh;
 }
 
 #chat-screen .alt-header {
@@ -80,8 +80,8 @@
 }
 
 .message__bubble > img {
-  width: 200px;
-  height: 150px;
+  width: 180px;
+  height: 140px;
 }
 
 .message__info {
