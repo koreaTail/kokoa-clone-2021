@@ -6,9 +6,14 @@
 
 .recommenedBooks-display {
   display: flex;
-  width: 100vw;
+  width: 90vw;
   height: 300px;
   overflow: scroll;
+  flex-shrink: 0;
+}
+
+.recommenedBooks-display::-webkit-scrollbar {
+  display: none;
 }
 
 .recommenedBooks-display img {
@@ -44,6 +49,8 @@
   display: flex;
   flex-direction: column;
   align-items: flex-start;
+  width: 150px;
+  height: auto;
 }
 
 .recommenedBooks__contents__book-text__red {
