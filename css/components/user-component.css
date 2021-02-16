@@ -28,12 +28,12 @@
 
 .user-component__title {
   font-weight: 600;
-  font-size: 23px;
+  font-size: 18px;
 }
 
 .user-component__subtitle {
   margin-top: 5px;
-  font-size: 16px;
+  font-size: 14px;
   color: var(--white);
 }
 
@@ -58,6 +58,7 @@
 .user-component__time {
   display: block;
   margin-bottom: 5px;
+  font-size: 12px;
 }
 
 .chats__thumbtack-display {
