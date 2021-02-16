@@ -36,6 +36,10 @@
   color: var(--green);
 }
 
+.very-green-battery {
+  color: rgb(3, 56, 3);
+}
+
 .top__background {
   background-color: black;
   z-index: 10;
