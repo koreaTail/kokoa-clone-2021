@@ -1,0 +1,65 @@
+#info-screen {
+  height: 100vh;
+}
+
+.info-top-bar {
+  margin: 20px 25px 0px 20px;
+  display: flex;
+  justify-content: space-between;
+  font-size: 20px;
+  font-weight: 100;
+}
+
+.info-top-bar__etc-button i {
+  margin-left: 12px;
+}
+
+.info-main {
+  height: 74%;
+  width: 100%;
+  border-bottom: 1px solid rgb(255, 255, 255, 0.4);
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: flex-end;
+  padding-bottom: 6%;
+}
+
+.info-main__photo img {
+  height: 82px;
+  border-radius: 30px;
+  margin-bottom: 10px;
+}
+
+.info-main__name {
+  margin-bottom: 10px;
+  font-size: 17px;
+}
+
+.info-main__state-text {
+  font-size: 13px;
+  font-weight: 200;
+}
+
+.info-chat-and-call-buttons {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  height: 10%;
+}
+
+.info-chat__one-to-one-chat-button,
+.info-chat__call-button,
+.info-chat__story-button {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.info-chat__one-to-one-chat-button span,
+.info-chat__call-button span,
+.info-chat__story-button span {
+  margin-top: 10px;
+  font-size: 11px;
+  font-weight: 200;
+}
