@@ -21,6 +21,7 @@
 @import "screens/chat.css";
 @import "screens/story-book.css";
 @import "screens/story-map.css";
+@import "screens/profile.css";
 
 body {
   font-family: "Noto Sans KR", "Open Sans", sans-serif;
@@ -29,7 +30,6 @@ body {
   background-size: cover;
   height: 115vh;
   width: auto;
-
   color: var(--white);
 }
 
